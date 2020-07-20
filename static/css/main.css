@@ -10936,7 +10936,6 @@ header .header-content .header-content-inner h1 {
 @media screen and (max-width: 600px) {
     header .header-content .header-content-inner h1 {
         margin-top: 0;
-        margin-bottom: 5px;
         text-transform: uppercase;
         font-weight: 600;
         font-size: 32px;
