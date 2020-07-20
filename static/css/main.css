@@ -7559,12 +7559,6 @@ button.close {
     border: 0
 }
 
-h2,
-p,
-span {
-    font-weight: 200
-}
-
 a,
 a:focus,
 a:hover {
@@ -10942,6 +10936,20 @@ header .header-content .header-content-inner h1 {
     }
 }
 
+a.button {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 1px;
+    width: 120px;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    text-align:center
+}
+
 header .header-content .header-content-inner hr {
     margin: 10px 0 30px 0;
 }
@@ -11153,12 +11161,10 @@ section .wrapper h2 {
 .text-line {
   position: relative;
   z-index: 1;
-  text-align: center;
-  padding: 25px;
+  padding-top: 25px;
 }
 .text-line:before {
   content: "";
-  border-top: 1px solid #8C8C8C;
   margin: 0 auto;
   /* this centers the line to the full width specified */
   position: absolute;
